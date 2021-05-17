@@ -1,0 +1,74 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "idCategory": 1,
+      "name": "Coca-Cola",
+      "description": "Coca-Cola - Lata 350ml",
+      "price": 3.50,
+      "image": "assets/images/coca-lata.png"
+    },
+    {
+      "id": 2,
+      "idCategory": 1,
+      "name": "Fanta Laranja",
+      "description": "Fanta Laranja - Lata 350ml",
+      "price": 3.00,
+      "image": "assets/images/fanta-laranja-lata.png"
+    },
+    {
+      "id": 3,
+      "idCategory": 2,
+      "name": "Neugebauer Branco",
+      "description": "Neugebauer Branco - 90g",
+      "price": 4.35,
+      "image": "assets/images/neugebauer-branco.png"
+    },
+    {
+      "id": 4,
+      "idCategory": 2,
+      "name": "Laka",
+      "description": "Laka - 90g",
+      "price": 4.59,
+      "image": "assets/images/laka.png"
+    },
+    {
+      "id": 5,
+      "idCategory": 3,
+      "name": "Cheetos Onda Requeijão",
+      "description": "Cheetos Onda Requeijão - 37g",
+      "price": 2.5,
+      "image": "assets/images/cheetos-onda.png"
+    },
+    {
+      "id": 6,
+      "idCategory": 3,
+      "name": "Cheetos Lua Parmesão",
+      "description": "Cheetos Lua Parmesão - 37g",
+      "price": 2.5,
+      "image": "assets/images/cheetos-lua.png"
+    },
+    {
+      "id": 7,
+      "idCategory": 1,
+      "name": "Achocolatado Tirolzinho",
+      "description": "Achocolatado Tirolzinho - 200ml",
+      "price": 1.89,
+      "image": "assets/images/tirolzinho.png"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Bebidas"
+    },
+    {
+      "id": 2,
+      "name": "Doces"
+    },
+    {
+      "id": 3,
+      "name": "Salgados"
+    }
+  ]
+}
