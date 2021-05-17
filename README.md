@@ -6,28 +6,25 @@ Algumas regras de negócio deveriam ser seguidas e estão descritas no decorrer 
 Dentre as regras opcionais, foram aplicadas:
 
 - Paginação na lista de produtos;
-- Utilizar algum framework/lib como ReactJS ou Angular.
+- Utilizar algum _framework/lib_ como _React.JS_ ou _Angular_.
 
 Não foram aplicadas:
 
-- Exibir uma lista dos produtos do carrinho ao passar o mouse por cima do ícone de
-  carrinho;
-- Após o primeiro produto ser adicionado ao carrinho, inicia-se um contador
-  decrescente de 15 minutos, que quando chegar a zero, limpará todos os itens do
-  carrinho;
-- Utilizar algum pré-processador de CSS ou CSS-in-JS;
-- PWA (manifest, service-workers, offline-first, etc...).
+- Exibir uma lista dos produtos do carrinho ao passar o _mouse_ por cima do ícone de carrinho;
+- Após o primeiro produto ser adicionado ao carrinho, inicia-se um contador decrescente de 15 minutos, que quando chegar a zero, limpará todos os itens do carrinho;
+- Utilizar algum pré-processador de _CSS_ ou _CSS-in-JS_;
+- PWA (_manifest_, _service-workers_, _offline-first_, etc...).
 
 Para a estruturação do _front-end_, foi utilizada a biblioteca _React.JS_, em conjunto com _React Redux_ para o controle dos estados.
 
 No desenvovimento das interfaces, optou-se por utilizar um _framework_ chamado Grommet por sua fácil aplicação, _design_ minimalista e estrutura baseada em componentes _React_.
 
-No _backend_, optou-se por simular o servidor com _json-server_ em conjunto com uma base de dados armazenada em um arquivo _.json_.
+No _backend_, optou-se por simular o servidor com _json-server_ em conjunto com uma base de dados armazenada em um arquivo _.json_. 
 As chamadas dos _endpoints_ foram feitas com Axios.
 
 ## Como começar
 
-Após clonar o projeto, realizar a instalação das dependências por meio do NPM .
+Após clonar o projeto, realizar a instalação das dependências por meio do NPM.
 
 ```sh
 npm install
@@ -69,7 +66,7 @@ Apresenta o logotipo da loja fictícia e um _link_ contido no ícone de carrinho
 
 ### Filtro
 
-É um select simples com as categorias de produtos.
+É um _select_ simples com as categorias de produtos.
 
 ### Lista de produtos
 
@@ -78,7 +75,7 @@ Os produtos foram organizados em _cards_ e além de trazer as informações sobr
 ### Paginação
 
 Paginação dos produtos, usando em conjunto os _hooks_ do _React.JS_ e as _queries_ fornecidas pelo _json-server_.
-A paginação também se atualiza conforme é feita a troca das categorias, por meio de um filter existente no _json-server_.
+A paginação também se atualiza conforme é feita a troca das categorias, por meio de um _filter_ existente no _json-server_.
 
 ## Carrinho (checkout)
 
